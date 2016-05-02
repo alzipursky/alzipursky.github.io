@@ -101,3 +101,7 @@ a { color: #e8d4a7; text-decoration: none; text-align: right; padding: 15px; fon
 .help{
     background: transparent;
 }
+
+a.fade-in{
+    text-decoration: none;
+}
