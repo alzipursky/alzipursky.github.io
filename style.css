@@ -17,7 +17,7 @@ body {
   width: 1025px;
 }
 .vertical-center {
-  height: 90%;
+  height: 100%;
   width: 100%;
   text-align: center;  /* align the inline(-block) elements horizontally */
   font: 0/0 a;         /* remove the gap between inline(-block) elements */
@@ -37,10 +37,10 @@ body {
   vertical-align: middle;  /* vertical alignment of the inline element */
   font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
 }
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .vertical-center:before {
-    /* height: auto; */
-    display: none;
+    /*height: auto;*/
+    display: inline-block;
   }
 }
 
